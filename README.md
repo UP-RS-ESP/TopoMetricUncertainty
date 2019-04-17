@@ -1,6 +1,5 @@
 # TopoMetricUncertainty
-Determining the Optimal Grid Resolution for Topographic Analysis on an Airborne Lidar Dataset
-Taylor Smith, Aljoscha Rheinwalt, and Bodo Bookhagen
+Codes and data associated with the paper: "Determining the Optimal Grid Resolution for Topographic Analysis on an Airborne Lidar Dataset" by Taylor Smith, Aljoscha Rheinwalt, and Bodo Bookhagen
 
 Link to discussion paper: https://www.earth-surf-dynam-discuss.net/esurf-2018-96/
 
