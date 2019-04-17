@@ -7,7 +7,7 @@ Code used to create the synthetic surfaces used in the paper can be found in "su
 
 Code used to calculate truncation error and propagated elevation uncertainty can be found in "uncertainty.py"
 
-A detailed description of several gridding methods for lidar data, including the ones used in this paper, can be found here: 
+A detailed description of several gridding methods for lidar data, including the ones used in this paper, can be found here: https://github.com/BodoBookhagen/Lidar_PC_interpolation
 
 Lidar data source for lidar.npz, and the lidar data used in the paper: http://opentopo.sdsc.edu/datasetMetadata?otCollectionID=OT.082012.26911.1
 
