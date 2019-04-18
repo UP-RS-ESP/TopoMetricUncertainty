@@ -8,7 +8,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import gdalnumeric
 
-from surfaces import trunc_err_slope, trunc_err_aspect, peu_slope_field, peu_aspect_field
+from uncertainty import trunc_err_slope, trunc_err_aspect, peu_slope_field, peu_aspect_field
 
 def QR(z, spacing, std, mask):
     '''
