@@ -33,7 +33,7 @@ def QR(z, spacing, std, mask):
 
 #Loop through each DEM resolution
 base_dir = '~/example/'
-spacings = range(1, 31)[::-1]
+spacings = range(2, 31)[::-1]
 qr_s, qr_a = [], []
 for i in spacings:
     dem = base_dir + 'DEM/Pozo_UTM11_NAD83_g_' + str(i) + 'm.tif'
