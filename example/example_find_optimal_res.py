@@ -33,7 +33,7 @@ def QR(z, spacing, std, mask):
 
 #Loop through each DEM resolution
 base_dir = '~/example/'
-spacings = range(2, 31)[::-1]
+spacings = range(1, 31)[::-1]
 qr_s, qr_a = [], []
 for i in spacings:
     dem = base_dir + 'DEM/Pozo_UTM11_NAD83_g_' + str(i) + 'm.tif'
@@ -64,10 +64,10 @@ f, (ax, ax2) = plt.subplots(2)
 ax.plot(spacings, qr_s, 'k-')
 ax2.plot(spacings, qr_a, 'k-')
 ax2.set_xlabel('Grid Resolution (m)', fontsize=16)
-ax.set_ylabel('Quality Ratio - Slope', fontsize=16)
-ax2.set_ylabel('Quality Ratio - Aspect', fontsize=16)
-ax.set_xlim(spacings[-1], spacings[0])
-ax2.set_xlim(spacings[-1], spacings[0])
+ax.set_ylabel('QR - Slope', fontsize=16)
+ax2.set_ylabel('QR - Aspect', fontsize=16)
+ax.set_xlim(0, 30)
+ax2.set_xlim(0, 30)
 
 #Get the max
 qr_s, qr_a = np.array(qr_s), np.array(qr_a)
@@ -87,4 +87,4 @@ ax2.set_ylim(ym, ya)
 
 plt.tight_layout()
 plt.show()
-
+f.savefig(base_dir + 'optimal_res.png', dpi=300)
