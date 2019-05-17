@@ -3,6 +3,10 @@ Codes and data associated with the paper: "Determining the Optimal Grid Resoluti
 
 Link to discussion paper: https://www.earth-surf-dynam-discuss.net/esurf-2018-96/
 
+V1.0 of the sofware can be found and cited here:
+
+Smith, Taylor; Rheinwalt, Aljoscha; Bookhagen, Bodo (2019): TopoMetricUncertainty - Calculating Topographic Metric Uncertainty and Optimal Grid Resolution. V. 1.0. GFZ Data Services. http://doi.org/10.5880/fidgeo.2019.017
+
 Code used to create the synthetic surfaces used in the paper can be found in "surfaces.py"
 
 Code used to calculate truncation error and propagated elevation uncertainty can be found in "uncertainty.py"
