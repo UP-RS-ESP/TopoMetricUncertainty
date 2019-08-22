@@ -1,6 +1,6 @@
 # TopoMetricUncertainty
-The related discussion paper can be found here:
-Smith, T., Rheinwalt, A., and Bookhagen, B.: Determining the Optimal Grid Resolution for Topographic Analysis on an Airborne Lidar Dataset, Earth Surf. Dynam. Discuss., https://doi.org/10.5194/esurf-2018-96, in review, 2019.
+The related paper can be found here:
+Smith, T., Rheinwalt, A., and Bookhagen, B.: Determining the optimal grid resolution for topographic analysis on an airborne lidar dataset, Earth Surf. Dynam., 7, 475–489, https://doi.org/10.5194/esurf-7-475-2019, 2019.
 
 V1.0 of the sofware can be cited as:
 Smith, Taylor; Rheinwalt, Aljoscha; Bookhagen, Bodo (2019): TopoMetricUncertainty - Calculating Topographic Metric Uncertainty and Optimal Grid Resolution. V. 1.0. GFZ Data Services. http://doi.org/10.5880/fidgeo.2019.017
